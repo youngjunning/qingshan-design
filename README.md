@@ -41,13 +41,13 @@ It is designed for implementation and review, not just visual inspiration.
 Ask Codex to install the Skill:
 
 ```text
-Install qingshan-design from https://github.com/zisheng-ai/qingshan-design
+Install qingshan-design from https://github.com/youngjunning/qingshan-design
 ```
 
 Or clone it manually:
 
 ```bash
-git clone https://github.com/zisheng-ai/qingshan-design.git \
+git clone https://github.com/youngjunning/qingshan-design.git \
   "${CODEX_HOME:-$HOME/.codex}/skills/qingshan-design"
 ```
 
@@ -132,13 +132,13 @@ AI 可以快速生成界面，但它不会天然知道什么应该被强调、�
 直接让 Codex 安装：
 
 ```text
-从 https://github.com/zisheng-ai/qingshan-design 安装 qingshan-design Skill
+从 https://github.com/youngjunning/qingshan-design 安装 qingshan-design Skill
 ```
 
 也可以手动 clone：
 
 ```bash
-git clone https://github.com/zisheng-ai/qingshan-design.git \
+git clone https://github.com/youngjunning/qingshan-design.git \
   "${CODEX_HOME:-$HOME/.codex}/skills/qingshan-design"
 ```
 
