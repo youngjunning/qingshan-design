@@ -4,7 +4,7 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.ui.graphics.Color
 
-val QingshanLakeLightColors = lightColorScheme(
+val QingshanLightColors = lightColorScheme(
     primary = Color(0xFF286B66),
     onPrimary = Color(0xFFFFFFFF),
     primaryContainer = Color(0xFFDCEFEB),
@@ -22,7 +22,7 @@ val QingshanLakeLightColors = lightColorScheme(
     outline = Color(0xFFD4DFDC),
 )
 
-val QingshanLakeDarkColors = darkColorScheme(
+val QingshanDarkColors = darkColorScheme(
     primary = Color(0xFF85C7BA),
     onPrimary = Color(0xFF0F2B36),
     primaryContainer = Color(0xFF286B66),

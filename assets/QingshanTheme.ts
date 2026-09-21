@@ -1,4 +1,4 @@
-export const qingshanLakeTheme = {
+export const qingshanTheme = {
   light: {
     background: '#F4F6F1',
     surface: '#FBFCFA',
@@ -76,6 +76,6 @@ export const qingshanLakeTheme = {
   },
 } as const;
 
-export type QingshanLakeTheme = typeof qingshanLakeTheme;
-export type QingshanLakeColorScheme =
-  (typeof qingshanLakeTheme)['light' | 'dark'];
+export type QingshanTheme = typeof qingshanTheme;
+export type QingshanColorScheme =
+  (typeof qingshanTheme)['light' | 'dark'];

@@ -12,7 +12,7 @@ Use this reference for product marketing, launch, portfolio, and narrative pages
 
 Do not turn the page into a sequence of interchangeable rounded feature cards.
 
-## Qingshan Lake application
+## Qingshan Design application
 
 - Let mist and lake atmosphere establish identity in the hero, then reduce decoration as information density rises.
 - Use scenic layers as gradients, restrained illustration, or low-density particles; do not use a literal tourism photo as the entire UI.

@@ -1,6 +1,6 @@
 import SwiftUI
 
-enum QingshanLakePalette {
+enum QingshanPalette {
     static let canvas = Color(red: 0.957, green: 0.965, blue: 0.945)
     static let surface = Color(red: 0.984, green: 0.988, blue: 0.980)
     static let surfaceMuted = Color(red: 0.910, green: 0.933, blue: 0.918)

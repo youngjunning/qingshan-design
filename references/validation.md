@@ -32,7 +32,7 @@ Run:
 python3 scripts/validate_tokens.py
 ```
 
-The script validates required roles, hex syntax, token references, and declared WCAG contrast pairs in `assets/qingshan-lake.tokens.json`.
+The script validates required roles, hex syntax, token references, and declared WCAG contrast pairs in `assets/qingshan.tokens.json`.
 
 ## Handoff evidence
 

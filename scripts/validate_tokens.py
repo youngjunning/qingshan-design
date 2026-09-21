@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the bundled Qingshan Lake token file and declared contrast pairs."""
+"""Validate the bundled Qingshan token file and declared contrast pairs."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TOKEN_FILE = ROOT / "assets" / "qingshan-lake.tokens.json"
+TOKEN_FILE = ROOT / "assets" / "qingshan.tokens.json"
 HEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
 REFERENCE = re.compile(r"^\{([a-zA-Z0-9_.]+)\}$")
 REQUIRED_SEMANTIC = {

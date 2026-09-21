@@ -10,7 +10,7 @@ Use this reference for Jetpack Compose and Material 3 apps. Preserve Material ro
 - Adapt by window size and posture at runtime. Treat phones, tablets, foldables, split screen, and desktop windowing as layout states, not device-name branches.
 - Handle edge-to-edge system bars, cutouts, caption bars, navigation mode, and IME insets.
 
-## Qingshan Lake application
+## Qingshan Design application
 
 - Map lake teal to `primary`, deep lake ink to `onSurface`, mist to `surface`, cypress to success-compatible custom roles, and clay to error-compatible roles.
 - Supply tonal containers and `on-*` colors; do not insert raw scenic colors directly into Material components.

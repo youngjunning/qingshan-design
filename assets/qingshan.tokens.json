@@ -1,6 +1,6 @@
 {
   "$schema": "https://design-tokens.github.io/community-group/format/",
-  "name": "Qingshan Lake Design",
+  "name": "Qingshan Design",
   "version": "1.0.0",
   "disclaimer": "Independent design language inspired by Qingshan Lake in Lin'an, Hangzhou; not an official scenic-area design system.",
   "color": {

@@ -9,7 +9,7 @@ Use this reference for professional web apps, admin tools, data consoles, settin
 - Use a balanced or compact density: 8px base, 12–16px card padding, 20–24px section gaps, 32–40px controls for pointer-first desktop UI.
 - Collapse columns and relocate filters on narrow screens; never preserve a desktop grid by shrinking text below readable sizes.
 
-## Qingshan Lake application
+## Qingshan Design application
 
 - Build the page from low-noise canvas, readable surfaces, lake-teal interaction, cypress status, and gray-blue secondary hierarchy.
 - Use CSS `backdrop-filter` only when content remains legible without it. Supply an opaque fallback.

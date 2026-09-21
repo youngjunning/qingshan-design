@@ -1,4 +1,4 @@
-# Qingshan Lake Design
+# Qingshan Design
 
 [English](#english) · [简体中文](#简体中文)
 
@@ -12,7 +12,7 @@ This repository supports macOS, iPhone and iPad, Android, React Native, web dash
 
 ### Why this Skill exists
 
-AI can generate interfaces quickly, but it does not automatically know what deserves emphasis, what should remain quiet, or when a visual effect has become noise. Qingshan Lake Design turns those judgments into reusable constraints: semantic colors, information hierarchy, material strategy, motion boundaries, accessibility checks, and explicit anti-patterns.
+AI can generate interfaces quickly, but it does not automatically know what deserves emphasis, what should remain quiet, or when a visual effect has become noise. Qingshan Design turns those judgments into reusable constraints: semantic colors, information hierarchy, material strategy, motion boundaries, accessibility checks, and explicit anti-patterns.
 
 It is designed for implementation and review, not just visual inspiration.
 
@@ -41,14 +41,14 @@ It is designed for implementation and review, not just visual inspiration.
 Ask Codex to install the Skill:
 
 ```text
-Install qingshan-lake-design from https://github.com/zisheng-ai/qingshan-lake-design
+Install qingshan-design from https://github.com/zisheng-ai/qingshan-design
 ```
 
 Or clone it manually:
 
 ```bash
-git clone https://github.com/zisheng-ai/qingshan-lake-design.git \
-  "${CODEX_HOME:-$HOME/.codex}/skills/qingshan-lake-design"
+git clone https://github.com/zisheng-ai/qingshan-design.git \
+  "${CODEX_HOME:-$HOME/.codex}/skills/qingshan-design"
 ```
 
 Start a new Codex conversation after installation so the Skill can be discovered.
@@ -58,12 +58,12 @@ Start a new Codex conversation after installation so the Skill can be discovered
 Invoke it explicitly:
 
 ```text
-Use $qingshan-lake-design to redesign this React Native habit tracker for iOS,
+Use $qingshan-design to redesign this React Native habit tracker for iOS,
 Android, tablets, and foldables. Preserve accessibility and Reduced Motion.
 ```
 
 ```text
-Audit this dashboard with $qingshan-lake-design. Report hierarchy, contrast,
+Audit this dashboard with $qingshan-design. Report hierarchy, contrast,
 material, state, keyboard, and responsive-layout issues before changing code.
 ```
 
@@ -72,15 +72,15 @@ Codex can also trigger it automatically when a request mentions 青山湖风格,
 ### Repository contents
 
 ```text
-qingshan-lake-design/
+qingshan-design/
 ├── SKILL.md                       # Core workflow and routing
 ├── agents/openai.yaml             # Codex UI metadata
 ├── assets/
-│   ├── qingshan-lake.tokens.json  # Canonical semantic tokens
-│   ├── qingshan-lake.css          # Web variables and reduced-effect fallbacks
-│   ├── QingshanLakePalette.swift  # Apple platform palette
-│   ├── QingshanLakeTheme.kt       # Jetpack Compose theme
-│   └── QingshanLakeTheme.ts       # React Native typed theme
+│   ├── qingshan.tokens.json  # Canonical semantic tokens
+│   ├── qingshan.css          # Web variables and reduced-effect fallbacks
+│   ├── QingshanPalette.swift  # Apple platform palette
+│   ├── QingshanTheme.kt       # Jetpack Compose theme
+│   └── QingshanTheme.ts       # React Native typed theme
 ├── references/                    # Platform-specific implementation guidance
 └── scripts/validate_tokens.py     # Token and contrast validation
 ```
@@ -93,7 +93,7 @@ python3 scripts/validate_tokens.py
 
 ### Origin
 
-Qingshan Lake Design is independently authored and inspired by the mist, water, cypress forests, hills, and boardwalk atmosphere of Qingshan Lake in Lin'an, Hangzhou. It is not an official design system of the scenic area or its operators.
+Qingshan Design is independently authored and inspired by the mist, water, cypress forests, hills, and boardwalk atmosphere of Qingshan Lake in Lin'an, Hangzhou. It is not an official design system of the scenic area or its operators.
 
 Released under the [MIT License](LICENSE).
 
@@ -103,7 +103,7 @@ Released under the [MIT License](LICENSE).
 
 ### 为什么需要这个 Skill
 
-AI 可以快速生成界面，但它不会天然知道什么应该被强调、什么应该保持安静，也不会自动判断一个视觉效果何时已经变成噪声。Qingshan Lake Design 把这些判断沉淀为可复用的约束：语义色、信息层级、材质策略、动效边界、无障碍检查，以及明确的反模式。
+AI 可以快速生成界面，但它不会天然知道什么应该被强调、什么应该保持安静，也不会自动判断一个视觉效果何时已经变成噪声。Qingshan Design 把这些判断沉淀为可复用的约束：语义色、信息层级、材质策略、动效边界、无障碍检查，以及明确的反模式。
 
 它不是一份只供欣赏的视觉灵感，而是一套可以直接用于实现和审查的 Codex Skill。
 
@@ -132,14 +132,14 @@ AI 可以快速生成界面，但它不会天然知道什么应该被强调、�
 直接让 Codex 安装：
 
 ```text
-从 https://github.com/zisheng-ai/qingshan-lake-design 安装 qingshan-lake-design Skill
+从 https://github.com/zisheng-ai/qingshan-design 安装 qingshan-design Skill
 ```
 
 也可以手动 clone：
 
 ```bash
-git clone https://github.com/zisheng-ai/qingshan-lake-design.git \
-  "${CODEX_HOME:-$HOME/.codex}/skills/qingshan-lake-design"
+git clone https://github.com/zisheng-ai/qingshan-design.git \
+  "${CODEX_HOME:-$HOME/.codex}/skills/qingshan-design"
 ```
 
 安装后新建一个 Codex 会话，让 Skill 被重新发现。
@@ -149,12 +149,12 @@ git clone https://github.com/zisheng-ai/qingshan-lake-design.git \
 可以显式调用：
 
 ```text
-使用 $qingshan-lake-design，把这个 React Native 习惯追踪 App 改成青山湖风格，
+使用 $qingshan-design，把这个 React Native 习惯追踪 App 改成青山湖风格，
 覆盖 iOS、Android、tablet 和 foldable，并保留无障碍与 Reduced Motion。
 ```
 
 ```text
-使用 $qingshan-lake-design 审查这个 Dashboard。先报告信息层级、对比度、
+使用 $qingshan-design 审查这个 Dashboard。先报告信息层级、对比度、
 材质、状态、键盘和响应式布局问题，再修改代码。
 ```
 
@@ -163,15 +163,15 @@ git clone https://github.com/zisheng-ai/qingshan-lake-design.git \
 ### 仓库内容
 
 ```text
-qingshan-lake-design/
+qingshan-design/
 ├── SKILL.md                       # 核心工作流与平台路由
 ├── agents/openai.yaml             # Codex UI metadata
 ├── assets/
-│   ├── qingshan-lake.tokens.json  # 规范化 semantic tokens
-│   ├── qingshan-lake.css          # Web 变量与 reduced-effect fallback
-│   ├── QingshanLakePalette.swift  # Apple 平台色板
-│   ├── QingshanLakeTheme.kt       # Jetpack Compose theme
-│   └── QingshanLakeTheme.ts       # React Native typed theme
+│   ├── qingshan.tokens.json  # 规范化 semantic tokens
+│   ├── qingshan.css          # Web 变量与 reduced-effect fallback
+│   ├── QingshanPalette.swift  # Apple 平台色板
+│   ├── QingshanTheme.kt       # Jetpack Compose theme
+│   └── QingshanTheme.ts       # React Native typed theme
 ├── references/                    # 各平台实现规范
 └── scripts/validate_tokens.py     # Token 与对比度验证
 ```
@@ -184,6 +184,6 @@ python3 scripts/validate_tokens.py
 
 ### 来源说明
 
-Qingshan Lake Design 是一套独立创作的设计语言，灵感来自杭州临安青山湖的雾、水面、水杉、远山和栈道氛围。它不是青山湖景区或其运营方的官方设计系统。
+Qingshan Design 是一套独立创作的设计语言，灵感来自杭州临安青山湖的雾、水面、水杉、远山和栈道氛围。它不是青山湖景区或其运营方的官方设计系统。
 
 项目采用 [MIT License](LICENSE)。

@@ -10,7 +10,7 @@ Use this reference for SwiftUI/AppKit windows, menu bar surfaces, settings, dash
 - Prefer native `Button`, `Toggle`, `TextField`, `Menu`, `Table`, `NavigationSplitView`, sheet, and alert semantics. Style them through project styles before rebuilding interaction primitives.
 - Keep frequent actions reachable without forcing repeated modality.
 
-## Qingshan Lake application
+## Qingshan Design application
 
 - Use native material where it expresses a real hierarchy boundary, then add a restrained mist or lake tint.
 - Treat material as semantic structure, not a color picker. Provide an opaque fallback for Reduced Transparency.

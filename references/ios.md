@@ -9,7 +9,7 @@ Use this reference for SwiftUI/UIKit mobile apps. Adapt the language to touch, s
 - Support Dynamic Type and content reflow. Do not pin critical labels to one line or encode layout in fixed heights.
 - Apple lists 44×44pt as the default iOS/iPadOS control target and 28×28pt as the minimum; use 44×44pt for primary and frequent actions.
 
-## Qingshan Lake application
+## Qingshan Design application
 
 - Use mist-white canvas and opaque readable content surfaces by default. Reserve glass for navigation, transient controls, media overlays, or visually rich backgrounds.
 - Keep lake teal as the interaction accent, but use the strong role for button fills carrying small white labels.

@@ -4,7 +4,7 @@ Use this reference for React Native and Expo apps targeting iOS and Android. Sha
 
 ## Architecture contract
 
-- Use one typed semantic theme such as [assets/QingshanLakeTheme.ts](../assets/QingshanLakeTheme.ts). Components consume roles like `background`, `surface`, `text`, and `primaryAction`, not scenic seed colors.
+- Use one typed semantic theme such as [assets/QingshanTheme.ts](../assets/QingshanTheme.ts). Components consume roles like `background`, `surface`, `text`, and `primaryAction`, not scenic seed colors.
 - Use `useWindowDimensions()` so layout and `fontScale` update with rotation, split screen, foldables, and resized windows. Do not cache initial screen dimensions.
 - Treat `compact` as up to 599 logical pixels, `medium` as 600–839, and `expanded` as 840 or more by default. Let large `fontScale`, content constraints, or the product's existing grid override these suggestions.
 - Use platform checks for real behavior differences, not for duplicating entire screens.
@@ -12,13 +12,13 @@ Use this reference for React Native and Expo apps targeting iOS and Android. Sha
 - React Native's core `SafeAreaView` is deprecated; use the safe-area solution already adopted by the project, such as `react-native-safe-area-context`.
 - `useWindowDimensions()` handles resized foldable windows, but it does not expose a physical hinge or fold bounds. Avoid critical content near the center by default; use an established native module or platform adapter when exact hinge avoidance is a requirement, and report that boundary explicitly.
 
-## Qingshan Lake application
+## Qingshan Design application
 
 - Use an opaque mist canvas and readable surfaces by default. Native blur is optional and must have an opaque fallback; do not assume CSS `backdrop-filter` exists.
 - Use `#286B66` for primary action fills with white labels. Keep the brighter lake teal for charts, focus, progress, and atmosphere.
 - Use `PlatformColor` or the project's native semantic-color bridge when system adaptation is required. Do not replace matched foreground/container pairs independently.
 - The bundled TypeScript theme supports a static Qingshan Lake brand palette only; it does not implement Android Dynamic Color. Use the static theme as the fallback on both platforms.
-- If a product explicitly requires Dynamic Color, add a separate typed adapter backed by a maintained native bridge. Map matched Material roles together — including `primary/onPrimary/primaryContainer/onPrimaryContainer`, `secondary/onSecondary/secondaryContainer/onSecondaryContainer`, `background/onBackground`, `surface/onSurface/surfaceVariant/onSurfaceVariant`, `outline`, and `error/onError/errorContainer/onErrorContainer` — then test the computed scheme. Never replace only `primary`, and never imply that [assets/QingshanLakeTheme.ts](../assets/QingshanLakeTheme.ts) provides this capability.
+- If a product explicitly requires Dynamic Color, add a separate typed adapter backed by a maintained native bridge. Map matched Material roles together — including `primary/onPrimary/primaryContainer/onPrimaryContainer`, `secondary/onSecondary/secondaryContainer/onSecondaryContainer`, `background/onBackground`, `surface/onSurface/surfaceVariant/onSurfaceVariant`, `outline`, and `error/onError/errorContainer/onErrorContainer` — then test the computed scheme. Never replace only `primary`, and never imply that [assets/QingshanTheme.ts](../assets/QingshanTheme.ts) provides this capability.
 - Keep `Pressable` states for pressed, hovered, and focused input when supported. Use `hitSlop` carefully; adjacent targets must not overlap.
 
 ## Layout and target sizes

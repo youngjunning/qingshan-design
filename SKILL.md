@@ -1,9 +1,9 @@
 ---
-name: qingshan-lake-design
+name: qingshan-design
 description: Apply, implement, or audit the Qingshan Lake design language across macOS, iPhone/iPad, Android, React Native, web dashboards, and landing pages. Use when Codex is asked for 青山湖风格, Qingshan Lake or Jiangnan landscape glass UI, mist-and-lake visual systems, cross-platform design tokens, a restrained natural glass redesign, or consistency/accessibility review of an existing implementation.
 ---
 
-# Qingshan Lake Design
+# Qingshan Design
 
 Translate a misty lakeside landscape into a quiet, native, low-noise product system. Preserve the target platform's interaction model; apply the visual language through semantic tokens, hierarchy, material, restrained motion, and explicit anti-patterns.
 
@@ -44,7 +44,7 @@ State the following before implementation:
 5. **Material strategy:** native system material, CSS translucency, opaque fallback, or no glass.
 6. **Anti-patterns:** the concrete effects that must not appear.
 
-Use [assets/qingshan-lake.tokens.json](assets/qingshan-lake.tokens.json) when the project has no stronger token source. Copy or adapt [assets/qingshan-lake.css](assets/qingshan-lake.css), [assets/QingshanLakePalette.swift](assets/QingshanLakePalette.swift), [assets/QingshanLakeTheme.kt](assets/QingshanLakeTheme.kt), or [assets/QingshanLakeTheme.ts](assets/QingshanLakeTheme.ts) only when their platform and framework match.
+Use [assets/qingshan.tokens.json](assets/qingshan.tokens.json) when the project has no stronger token source. Copy or adapt [assets/qingshan.css](assets/qingshan.css), [assets/QingshanPalette.swift](assets/QingshanPalette.swift), [assets/QingshanTheme.kt](assets/QingshanTheme.kt), or [assets/QingshanTheme.ts](assets/QingshanTheme.ts) only when their platform and framework match.
 
 ### 3. Apply the hierarchy in this order
 
@@ -103,4 +103,4 @@ For audit-only work, list each issue with its surface, violated rule, user impac
 
 ## Origin and naming
 
-Qingshan Lake Design is an independently authored design language inspired by the mist, water, cypress forests, hills, and boardwalk atmosphere of Qingshan Lake in Lin'an, Hangzhou. It is not an official design system of the scenic area or its operators.
+Qingshan Design is an independently authored design language inspired by the mist, water, cypress forests, hills, and boardwalk atmosphere of Qingshan Lake in Lin'an, Hangzhou. It is not an official design system of the scenic area or its operators.
